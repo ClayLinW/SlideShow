@@ -1,0 +1,2 @@
+# SlideShow
+普通轮播图实现和通过自定义HorizontalScrollView以及ImageView的轮播图实现
