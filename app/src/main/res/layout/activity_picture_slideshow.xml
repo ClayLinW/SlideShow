@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF99CC"
+    android:orientation="vertical">
+
+    <com.clay.slideshowdemo.view.CustomHorizontalScrollView
+        android:id="@+id/hs_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="50dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ll_shifting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.clay.slideshowdemo.view.RotateImageView
+                android:id="@+id/riv_first"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture_a" />
+
+            <com.clay.slideshowdemo.view.RotateImageView
+                android:id="@+id/riv_second"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture_b" />
+
+            <com.clay.slideshowdemo.view.RotateImageView
+                android:id="@+id/riv_third"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture_c" />
+
+            <com.clay.slideshowdemo.view.RotateImageView
+                android:id="@+id/riv_fourth"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture_d" />
+
+            <com.clay.slideshowdemo.view.RotateImageView
+                android:id="@+id/riv_fifth"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture_e" />
+
+            <com.clay.slideshowdemo.view.RotateImageView
+                android:id="@+id/riv_sixth"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture_f" />
+
+            <com.clay.slideshowdemo.view.RotateImageView
+                android:id="@+id/riv_seventh"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture_g" />
+
+            <com.clay.slideshowdemo.view.RotateImageView
+                android:id="@+id/riv_eighth"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture_h" />
+
+        </LinearLayout>
+
+    </com.clay.slideshowdemo.view.CustomHorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/dot_layout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+</LinearLayout>
